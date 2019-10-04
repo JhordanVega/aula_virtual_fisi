@@ -58,12 +58,13 @@ body a{
 	padding: 15px;
 	border: solid 1px black;
 	font-weight: bold;
+	background: #969FAA;
 }
 .ini-cursos a{
 	text-decoration: none;
 }
 .ini-curso:hover{
-	background: #F6B235;
+	background: #607D8B;
 	color: white;
 	transition: all 0.2s;
 }
@@ -75,7 +76,9 @@ body a{
 	padding: 5px;
 	border-radius: 5px;
 	margin-bottom: 15px;
+	background: white;
 }
+
 .ini-curso-ciclo{
 	text-align: right;
 }
@@ -85,16 +88,25 @@ body a{
 	margin-bottom: 30px;
 }
 
+.ini-editar{
+	padding: 15px;
+	border: solid 1px black;
+	font-weight: bold;
+	background: white;
+}
+
 .ini-lista-usuarios{
 	padding: 10px;
 }
 .ini-usuarios-cabecera{
 	border-bottom: solid 1px black;
+	background: #E5E9F2;
 }
 .ini-usuarios{
 	border: solid 1px black;
 	padding: 0;
 	margin-bottom: 30px;
+	background: #F1F3F7;
 }
 .ini-usuarios a:hover{
 	font-weight: bold;
@@ -108,9 +120,11 @@ body a{
 	border: solid 1px black;
 	padding: 0;
 	margin-bottom: 30px;
+	background: #F1F3F7;
 }
 .ini-biblioteca-cabecera{
 	border-bottom: solid 1px black;
+	background: #E5E9F2;
 }
 .ini-img-libro{
 	padding: 15px 0;
@@ -355,6 +369,15 @@ body a{
 	margin-bottom: 15px;
 }
 
+.editar-nombre{
+	font-weight: bold;
+
+}
+
+.fondo-editar{
+	background: #F6FC76;
+}
+
 
 @media (min-width: 768px){
 	.h-logo{
@@ -372,4 +395,5 @@ body a{
 		max-height: 41px;
 	}*/
 }/* fin 992*/
+
 

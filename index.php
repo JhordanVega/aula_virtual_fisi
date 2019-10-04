@@ -86,7 +86,6 @@
             .login_btn{
             color: white;
             background-color: #47525E;
-            width: 100px;
             }
 
             .card-footer{
@@ -105,18 +104,19 @@
                         <h3>Ingresar al Aula Virtual</h3>
                     </div>
                     <div class="card-body">
-                        <form>
-                            <div class="input-group form-group">
-                                <input type="text" class="form-control" placeholder="Nombre de usuario">
-                                
-                            </div>
-                            <div class="input-group form-group">
-                                <input type="password" class="form-control" placeholder="Contraseña">
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" value="Acceder" class="btn btn-block login_btn">
-                            </div>
-                        </form>
+                       
+                        <div class="input-group form-group">
+                            <input type="text" class="form-control" placeholder="Nombre de usuario">
+                            
+                        </div>
+                        <div class="input-group form-group">
+                            <input type="password" class="form-control" placeholder="Contraseña">
+                        </div>
+                        <div class="form-group">
+                        
+                        <a href="inicio.php"><button class="btn btn-block login_btn">Acceder</button></a>
+                        </div>
+                        
                     </div>
                     <div class="card-footer">
                         © 2019 Facultad de Ingeniería de Sistemas e Informátoca
