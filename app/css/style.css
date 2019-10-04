@@ -1,0 +1,363 @@
+/*header*/
+
+.h-row-1{
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	z-index: 99999;
+}
+.h-row-1{
+	padding: 5px 20px;
+	/*border-bottom: solid 2px black;*/
+	background: #6299CA;
+	color: black;
+}
+.h-row-2{
+	padding: 5px 15px;
+	/*border-bottom: solid 2px black;*/
+	box-shadow: 0px 5px 5px #E1E1E1;
+	color: black;
+	background: #EBEBE5;
+	margin-top: 34px;	
+}
+.h-row-1 a, .h-row-2 a{
+	color: black;
+	text-decoration: none;
+}
+.h-logo{
+	text-align: center;
+}
+.h-logo img{
+	max-height: 56px;
+}
+
+
+/*footer*/
+.f-1{
+	background: #1D1D1D;
+	padding: 5px 0;
+}
+.f-1 a {
+	color: white;
+	text-decoration: none;
+}
+header, body, footer{
+	font-family: 'Lato', sans-serif;
+}
+body a{
+	color: black;
+	text-decoration: none;
+}
+
+/*inicio*/
+.section-ini{
+	padding: 30px 0;
+}
+.ini-cursos{
+	padding: 15px;
+	border: solid 1px black;
+	font-weight: bold;
+}
+.ini-cursos a{
+	text-decoration: none;
+}
+.ini-curso:hover{
+	background: #F6B235;
+	color: white;
+	transition: all 0.2s;
+}
+.ini-cursos small{
+	font-size: 15px;
+}
+.ini-curso{
+	border: solid 1px black;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.ini-curso-ciclo{
+	text-align: right;
+}
+.ini-izq{
+	padding: 15px;
+	border: solid 1px black;
+	margin-bottom: 30px;
+}
+
+.ini-lista-usuarios{
+	padding: 10px;
+}
+.ini-usuarios-cabecera{
+	border-bottom: solid 1px black;
+}
+.ini-usuarios{
+	border: solid 1px black;
+	padding: 0;
+	margin-bottom: 30px;
+}
+.ini-usuarios a:hover{
+	font-weight: bold;
+	transition: 0.2s;
+}
+.ini-buscador{
+	margin-bottom: 15px;
+	padding: 0;
+}
+.ini-biblioteca{
+	border: solid 1px black;
+	padding: 0;
+	margin-bottom: 30px;
+}
+.ini-biblioteca-cabecera{
+	border-bottom: solid 1px black;
+}
+.ini-img-libro{
+	padding: 15px 0;
+	text-align: center;
+}
+.ini-img-libro img{
+	max-height: 120px;
+}
+.ini-biblioteca-item{
+	margin-bottom: 5px;
+}
+.ini-biblioteca-item a:hover{
+	font-weight: bold;
+	transition: 0.2s;
+}
+.ini-biblioteca-items{
+	font-size: 15px;
+	padding-bottom: 15px;
+}
+.ini-lista-usuarios{
+	font-size: 18px;
+}
+.ini-buscador input{
+	width: 225px;
+	height: 25px;
+	font-size: 15px;	
+	border-radius: 5px;
+}
+
+/*curso*/
+.curso-titulo{
+	margin-bottom: 15px;
+	padding: 0;
+	font-weight: bold;
+	font-size: 27px;
+}
+.curso-temas{
+	padding: 0;
+	font-weight: bold;
+}
+.curso-izq{
+	padding: 15px 30px;
+	background: #ABB2BA;
+}
+.curso-tema{
+	border: solid 1px black;
+	padding: 15px 5px	;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	background: white;
+	min-height: 105px;
+}
+.curso-archivo{
+	padding-left: 45px;
+	font-weight: 400;
+}
+.curso-archivo-evaluado{
+	float: right;
+}
+.curso-temas .fa-file-pdf{
+	color: #E86155;
+}
+.curso-temas .fa-clipboard{
+	color: #FCBA66;
+}
+.curso-temas a{
+	text-decoration: none;
+}
+.curso-temas a:hover{
+	font-weight: bold;
+}
+.curso-tema-descripcion{
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.curso-nombre-tema{
+	margin-bottom: 15px;
+}
+.curso-archivo-entregado{
+	color: #7BD45F;
+	float: right;
+	font-weight: bold;
+}
+.curso-archivo-noentregado{
+	color: #F67176;
+	float: right;
+	font-weight: bold;
+}
+.curso-archivo-pendiente{
+	color: #FCBA66;
+	float: right;
+	font-weight: bold;
+}
+
+/*tarea*/
+.tarea-titulo{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 0;
+	margin: 15px 0;
+}
+.tarea-estado-entrega{
+	font-weight: bold;
+}
+.tarea-subir-tarea{
+	padding: 0;
+	font-weight: bold;
+}
+.tarea-estado-entrega{
+	background: #F9FAFC;
+	border-bottom: solid 1px #F9FAFC;
+	font-weight: 400;
+}
+.tarea-estado-der{
+	text-align: right;
+}
+.tarea-estado-dato-impar{
+	border-bottom: solid 1px #C1CCD9;
+	padding: 15px 0;
+}
+.tarea-estado-dato-par{
+	border-bottom: solid 1px #C1CCD9;
+	padding: 15px 0;
+	background: #FFFFFF;
+}
+.tarea-clipboard{
+	color: #FCBA66;
+}
+.tarea-check{
+	color: #7BD45F;
+}
+.tarea-subir-tarea{
+	text-align: center;
+	background: #FFFFFF;
+	padding: 30px 0;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.tarea-arrow{
+	color: #7AC2B0;
+}
+
+/*chat*/
+.chat-borde{
+	border: solid 1px black;
+	padding: 15px;
+	padding-bottom: 30px;
+}
+.chat-borde-padding{
+	padding: 15px;
+}
+.chat-izq{
+	/*padding: 15px 30px;*/
+	/*background: #ABB2BA;*/
+}
+.chat-borde{
+	background: #CBECFE;
+}
+
+.chat-mensaje-f2{
+	border: solid 1px #8592A5;
+	font-size: 15px;
+	padding: 5px 10px; 
+
+}
+.chat-icon-user1{
+	float: right;
+	padding-right: 10px;
+}
+.chat-user2-txt{
+	text-align: right;
+	border: solid 1px #8592A5;
+	font-size: 15px;
+	padding: 5px 10px; 
+}
+
+.chat-der{
+	border: solid 1px black;
+	padding-right: 15px;
+}
+.chat-escribir-mensaje textarea{
+	width: 100%;
+	border-radius: 35px;
+	float: left;
+	resize: none;
+	padding-left: 15px;
+}
+.chat-btnEnviar{
+	text-align: center;
+}
+.chat-btnEnviar a{
+	background: #48525D;
+	padding: 5px 30px;
+	color: white;
+	display: inline-block;
+	border-radius: 5px;
+	/*margin-top: 10px;*/
+}
+.chat-escribir-mensaje{
+	padding: 15px 0;
+}
+.chat-fecha{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.chat-der-f1{
+	padding: 15px 0;
+	padding-right: 15px;
+}
+.chat-der-f2{
+	padding-right: 15px;
+}
+.chat-der-f3{
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+.chat-user2{
+	border-bottom: solid 1px black;
+}
+.chat-titulo{
+	margin-bottom: 15px;
+	padding: 0;
+	font-weight: bold;
+	font-size: 27px;
+	padding-left: 15px;
+}
+.chat-buscador input{
+	width: 200px;
+    
+}
+
+
+@media (min-width: 768px){
+	.h-logo{
+		text-align: left;
+	}
+	.section-ini{
+		font-size: 20px;
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+	.ini-izq{
+		margin-bottom: 0;
+	}
+	/*.h-logo img{
+		max-height: 41px;
+	}*/
+}/* fin 992*/
+
