@@ -89,6 +89,11 @@
             background-color: #47525E;
             }
 
+            .login_btn:hover{
+                color: white;
+                text-decoration: none;
+            }
+
             .card-footer{
                 color:white;
                 text-align: center;
