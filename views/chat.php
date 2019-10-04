@@ -7,7 +7,7 @@
 			 	</div>
 	 			<div class="col-12 col-lg-4 ini-izq chat-izq">
 		 			
-			 			
+			 		<div class="col-12 chat-izq-linea">	
 			 			<div class="ini-buscador chat-buscador col-12">
 		 				Buscar:
 		 				&nbsp;
@@ -15,7 +15,21 @@
 		 				&nbsp;
 		 				<a href=""><i class="fas fa-search"></i></a>
 		 				</div>
-			 			
+			 		</div>
+			 		<div class="chat-users col-12">
+			 			<div class="chat-user-border col-12">
+			 				<i class="far fa-user-circle"></i>
+							&nbsp;&nbsp;Cánepa Perez Carlos
+			 			</div>
+			 			<div class="chat-user-border col-12">
+			 				<i class="far fa-user-circle"></i>
+							&nbsp;&nbsp;Vega Chavez Jhordan
+			 			</div>
+			 			<div class="chat-user-border col-12">
+			 				<i class="far fa-user-circle"></i>
+							&nbsp;&nbsp;Tineo Guevara Cristian
+			 			</div>
+			 		</div>	
 		 			
 		 		</div>
 		 		

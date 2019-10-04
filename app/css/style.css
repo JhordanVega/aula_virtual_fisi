@@ -264,8 +264,7 @@ body a{
 	padding: 15px;
 }
 .chat-izq{
-	/*padding: 15px 30px;*/
-	/*background: #ABB2BA;*/
+	padding: 0;
 }
 .chat-borde{
 	background: #CBECFE;
@@ -331,6 +330,11 @@ body a{
 .chat-user2{
 	border-bottom: solid 1px black;
 }
+.chat-izq-linea{
+	padding: 0 15px;
+	padding-top: 15px;
+	border-bottom: 1px solid black;
+}
 .chat-titulo{
 	margin-bottom: 15px;
 	padding: 0;
@@ -338,9 +342,17 @@ body a{
 	font-size: 27px;
 	padding-left: 15px;
 }
+.chat-users{
+	padding: 15px;
+}
 .chat-buscador input{
 	width: 200px;
     
+}
+.chat-user-border{
+	padding: 15px;
+	border: solid 1px black;
+	margin-bottom: 15px;
 }
 
 
