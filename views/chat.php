@@ -5,7 +5,7 @@
 	 			<div class="chat-titulo col-12">
 					Mensajes
 			 	</div>
-	 			<div class="col-12 col-lg-4 ini-izq chat-izq">
+	 			<div class="col-12 col-lg-4 ini-izq chat-izq" style="background:white">
 		 			
 			 		<div class="col-12 chat-izq-linea">	
 			 			<div class="ini-buscador chat-buscador col-12">
@@ -33,7 +33,7 @@
 		 			
 		 		</div>
 		 		
-		 			<div class="ini-der chat-der col-12 col-lg-8">
+		 			<div class="ini-der chat-der col-12 col-lg-8" style="background:white">
 		 				<div class="chat-der-f1 row align-items-end">
 		 					<div class="col-12 col-lg-1">
 		 						<div class="chat-icon-user1 row">

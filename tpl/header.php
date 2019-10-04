@@ -9,7 +9,7 @@
         </div>
         <div class="col-12 offset-md-4 col-md-4 offset-lg-5 col-lg-3">
           <div class="row justify-content-center align-items-center">
-            <a href=""><i class="fas fa-envelope"></i> </a>
+            <a href="chat.php"><i class="fas fa-envelope"></i> </a>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
             <a href=""><i class="fas fa-user-circle"></i></a>
             &nbsp; &nbsp; <a href="">Diego Yance</a> &nbsp; &nbsp;
