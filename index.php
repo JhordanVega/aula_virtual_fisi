@@ -20,6 +20,7 @@
             background-repeat: no-repeat;
             height: 100%;
             font-family: 'Numans', sans-serif;
+            background-position: center;
             }
 
             .container{
@@ -99,7 +100,7 @@
         <div class="container">
             <div class="d-flex justify-content-center h-100">
                 <div class="card">
-                    <img src="app/img/logo.png" alt="">
+                    <img src="app/img/logo.png" class="img-fluid" alt="Responsive image">
                     <div class="card-header">
                         <h3>Ingresar al Aula Virtual</h3>
                     </div>
