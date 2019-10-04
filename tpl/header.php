@@ -4,7 +4,7 @@
   <div class="h-row-1">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-12 col-md-4">
+        <div class="col-6 col-md-4">
           
           <div class="navbar">
               <div class="container-fluid navbar-inner">
@@ -41,10 +41,9 @@
               </div>                                           
             </div>
         </div>
-        <div class="col-12 offset-md-4 col-md-4 offset-lg-5 col-lg-3">
+        <div class="col-6 offset-md-4 col-md-4 offset-lg-5 col-lg-3">
           <div class="row justify-content-center align-items-center">
             <a href="chat.php"><i class="fas fa-envelope"></i> </a>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
             <div class="navbar">
               <div class="container-fluid navbar-inner">
                   <div class="row-fluid">

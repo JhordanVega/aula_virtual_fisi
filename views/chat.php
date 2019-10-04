@@ -3,7 +3,8 @@
 	 	<div class="chat-borde-padding">
 	 		<div class="row chat-borde col-12">
 	 			<div class="chat-titulo col-12">
-					Mensajes
+					Mensajes 
+					<a href="enviar_mensaje.php"> <i class="fa fa-edit"></i> </a>
 			 	</div>
 	 			<div class="col-12 col-lg-4 ini-izq chat-izq" style="background:white">
 		 			
@@ -17,18 +18,25 @@
 		 				</div>
 			 		</div>
 			 		<div class="chat-users col-12">
-			 			<div class="chat-user-border col-12">
-			 				<i class="far fa-user-circle"></i>
-							&nbsp;&nbsp;Cánepa Perez Carlos
-			 			</div>
-			 			<div class="chat-user-border col-12">
-			 				<i class="far fa-user-circle"></i>
-							&nbsp;&nbsp;Vega Chavez Jhordan
-			 			</div>
-			 			<div class="chat-user-border col-12">
-			 				<i class="far fa-user-circle"></i>
-							&nbsp;&nbsp;Tineo Guevara Cristian
-			 			</div>
+						 <a href="chat.php">
+							<div class="chat-user-border col-12">
+								<i class="far fa-user-circle"></i>
+								&nbsp;&nbsp;Cánepa Perez Carlos
+							</div>
+						 </a>
+			 			<a href="chat.php">
+							<div class="chat-user-border col-12">
+								<i class="far fa-user-circle"></i>
+								&nbsp;&nbsp;Vega Chavez Jhordan
+							</div>
+						</a>
+
+						<a href="chat.php">
+							<div class="chat-user-border col-12">
+								<i class="far fa-user-circle"></i>
+								&nbsp;&nbsp;Tineo Guevara Cristian
+							</div>
+						 </a>
 			 		</div>	
 		 			
 		 		</div>

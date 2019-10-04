@@ -6,32 +6,40 @@
 		 			<div class="editar-nombre col-12">
 		 				DIEGO ALBERTO YANCE ARQQUE
 		 			</div>
-		 			<div class="ini-editar col-12">
-						 <div class="row">
-							<div class="col-12">
-								Datos generales
-							</div>
-							<div class="col-12 col-sm-4" style="margin-top: 10px;">Nombres: </div>
-							<div class="col-12 col-sm-8" style="margin-top: 10px;"><input type="text" placeholder="Diego Alberto" size="30" disabled></div>
-							<div class="col-12 col-sm-4" style="margin-top: 10px;">Apellidos: </div>
-							<div class="col-12 col-sm-8" style="margin-top: 10px;"><input type="text" placeholder="Yance Arqque" size="30" disabled></div>
-							<div class="col-12 col-sm-4" style="margin-top: 10px;">Dirección de correo: </div>
-							<div class="col-12 col-sm-8" style="margin-top: 10px;"><input type="text" placeholder="diego.yance@unmsm.edu.pe" size="30" disabled></div>
-							<div class="col-12 col-sm-4" style="margin-top: 10px;">Ciudad: </div>
-							<div class="col-12 col-sm-8" style="margin-top: 10px;"><input type="text" placeholder="Carabayllo" size="30"></div>
-							<div class="col-12 col-sm-4" style="margin-top: 10px;">Seleccione su pais: </div>
-							<div class="col-12 col-sm-8" style="margin-top: 10px;"><input type="text" placeholder="Perú" size="30"></div>
-							<div class="col-12 col-sm-4" style="margin-top: 10px;">Teléfono: </div>
-							<div class="col-12 col-sm-8" style="margin-top: 10px;"><input type="text" placeholder="3221061068" size="30"></div>
-							<div class="col-12 col-sm-4" style="margin-top: 10px;">Celular: </div>
-							<div class="col-12 col-sm-8" style="margin-top: 10px;"><input type="text" placeholder="977157169" size="30"></div>
-							<div class="col-12 col-sm-4" style="margin-top: 10px;">Foto: </div>
-							<div class="col-12 col-sm-8" style="margin-top: 18px; font-size:13px"><input type="file"></div>
-							<div class="col-12 col-sm-4 offset-sm-4" style="margin-top: 18px;">
-								<button class="btn btn-dark">Guardar</button>
-							</div>
-						 </div>
-					 </div>
+		 			<table class="table" style="background:white;">
+						<thead>
+							<tr>
+								<th scope="col">NOMBRE DEL CURSO</th>
+								<th scope="col">CALIFICACIÓN</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>METODOLOGIA DE LA INVESTIGACION - G3</td>
+								<td style="text-align: center">12</td>
+							</tr>
+							<tr>
+								<td>INTERACCION HOMBRE COMPUTADOR - G1</td>
+								<td style="text-align: center">20</td>
+							</tr>
+							<tr>
+								<td>REDES Y TRANSMISION DE DATOS - G1</td>
+								<td style="text-align: center">09</td>
+							</tr>
+							<tr>
+								<td>GESTION Y CONFIGURACION DE SOFTWARE</td>
+								<td style="text-align: center">15</td>
+							</tr>
+							<tr>
+								<td>TESTING DE SOFTWARE</td>
+								<td style="text-align: center">14</td>
+							</tr>
+							<tr>
+								<td>GERENCIA DE PROYECTOS</td>
+								<td style="text-align: center">11</td>
+							</tr>
+						</tbody>
+					</table>
 	 			</div>
 	 		</div>
 	 		<div class=" col-12 col-lg-4">
